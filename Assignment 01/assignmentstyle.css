@@ -1,0 +1,19 @@
+* {
+    /* font-family: Azeret Mono; */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.logo {
+    font-size: larger;
+}
+
+.banner {
+    background-image: url(./assets/Hero-bg.png);
+    background-size: cover;
+}

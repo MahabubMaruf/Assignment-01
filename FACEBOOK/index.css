@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1c1e21;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Body Area Style */
+#body_area {
+    background-color: #f2f4f7;
+}
+.container {
+    width: 980px;
+    padding: 20px;
+    margin: 0 auto;
+}
+#content_area {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0 112px;
+    align-items: center;
+}
+.left_side {
+    flex-basis: 540px;
+}
+.left_side img {
+    width: 300px;
+}
+.left_side h2 {
+    color: #1c1e21;
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+.form_area {
+    flex-basis: 396px;
+    text-align: center;
+}
+.form_area form {
+    background-color: #fff;
+    box-shadow: 0 2px 4px #ddd, 0 8px 16px #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.form_area input {
+    width: 100%;
+    display: block;
+    border: 1px solid #dddfe2;
+    padding: 14px 16px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.form_area input[type="button"] {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.form_area a {
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.form_area a:hover {
+    text-decoration: underline;
+}
+.form_area button {
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 48px;
+    border: none;
+    border-radius: 6px;
+    padding: 0 16px;
+    margin: 25px 0 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.form_area p {
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 28px;
+}
+.form_area p a {
+    font-weight: 600;
+    color: #1c1e21;
+}
+
+/* Footer Area */
+#footer_area {
+    background-color: #fff;
+    padding: 25px 0;
+}
+#footer_area ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 0.15px solid #dddfe2;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+#footer_area ul li {
+    padding: 0 5px;
+}
+#footer_area ul li a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;  
+}
+
+#footer_area ul li a:hover {
+    text-decoration: underline;
+}
+#footer_area p {
+    color: #737373;
+    padding: 0 5px;
+}
